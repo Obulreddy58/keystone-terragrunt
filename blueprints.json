@@ -1,0 +1,81 @@
+{
+  "eks-cluster": [
+    "vpc",
+    "eks",
+    "eks-addons"
+  ],
+  "rds-database": [
+    "rds"
+  ],
+  "s3-bucket": [
+    "s3"
+  ],
+  "ecs-service": [
+    "vpc",
+    "ecs-fargate",
+    "alb"
+  ],
+  "redis": [
+    "elasticache"
+  ],
+  "lambda": [
+    "lambda"
+  ],
+  "dynamodb": [
+    "dynamodb"
+  ],
+  "msk": [
+    "vpc",
+    "msk"
+  ],
+  "route53": [
+    "route53"
+  ],
+  "vpc": [
+    "vpc"
+  ],
+  "xcr-onboarding": [
+    "xcr-onboarding"
+  ],
+  "sre-onboarding": [
+    "vpc-peering",
+    "observability-stack"
+  ],
+  "eks-upgrade": [
+    "control-plane",
+    "addons",
+    "node-groups"
+  ],
+  "aws-account": [
+    "account-factory",
+    "account-baseline"
+  ],
+  "argocd-onboarding": [
+    "argocd-project",
+    "argocd-applicationset",
+    "helm-charts",
+    "env-values"
+  ],
+  "documentdb-database": [
+    "documentdb"
+  ],
+  "iceberg-table": [
+    "glue-iceberg",
+    "s3-datalake"
+  ],
+  "vector-store": [
+    "vector-store"
+  ],
+  "lake-formation": [
+    "lake-formation"
+  ],
+  "data-access": [
+    "data-access-iam"
+  ],
+  "data-classification": [
+    "macie-classification"
+  ],
+  "cross-account-share": [
+    "ram-share"
+  ]
+}
